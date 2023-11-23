@@ -1,7 +1,8 @@
-title = "Hello World"
-baseURL = "https://barret-pierre.github.io/Hugo/"
+title = "BLOG.IO"
+baseURL='https://barret-pierre.github.io/Hugo/'
 languageCode = "en-us"
 theme = 'ananke'
+summaryLength = 40
 
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
@@ -11,11 +12,11 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "Hello World"
+    title = "BLOG.IO"
     weight = 1
     contentDir = "content/en"
   [languages.fr]
-    title = "Hello World"
+    title = "BLOG.IO"
     weight = 2
     contentDir = "content/fr"
 
@@ -29,13 +30,20 @@ enableRobotsTXT = true
   author = ""
   favicon = ""
   site_logo = ""
-  commentoEnable = true
+  commentoEnable = false
   description = "The last theme you'll ever need. Maybe."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  custom_css = ["theme.css"]
-  background_color_class = "bg-green"
-  recent_posts_number = 3
+  custom_css = ["theme.css", "footer.css", "sumary-with-image.css"]
+  background_color_class = "bg-light-gray"
+  recent_posts_number = 4
+  summaryLength = 30
 
 [[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+  name = "github"
+  url = "https://github.com/Barret-Pierre?tab=repositories"
+[[params.ananke_socials]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/pierre-alexandre-barret-1a99171b0/"
+[[params.ananke_socials]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com/users/17179968/pierre-alexandre-barret"

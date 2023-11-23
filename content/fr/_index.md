@@ -1,9 +1,9 @@
 ---
-title: "Github-pages et Hugo"
+title: "Apprendre, coder, recommencer"
 
-description: "Toutes les questions que vous vous posez, je me les pose aussi"
+description: "Code avec conviction, partage avec passion"
 cascade:
-  featured_image: "/images/hero-main.jpg"
+  featured_image: "/images/hero.jpg"
 ---
 
-Bienvenue sur mon blog 👋. Ici, vous pouvez retrouver quelques artciles intéréssants qui vous en apprendrons plus sur les Github-pages et sur Hugo.
+**Bienvenue sur mon blog 👋. Ici, vous pouvez retrouver quelques artciles intéréssants qui vous en apprendrons plus sur divers surjets tech.**

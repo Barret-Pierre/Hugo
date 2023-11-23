@@ -1,5 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary: black;
+  --gray: #777777;
+  --mid-gray: #555555;
+  --light-gray: hsl(0, 0%, 90%);
+  --font-primary: Noto Sans KR;
+}
 
 body {
-  font-family: Roboto !important;
+  font-family: var(--font-primary) !important;
+  font-weight: 400 !important;
+  color: var(--primary);
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.ananke-socials a {
+  color: var(--gray);
+  fill: currentColor;
+}
+
+.ananke-socials a.link:hover {
+  color: var(--mid-gray);
+}
+
+.btn {
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.link {
+  font-family: var(--font-primary);
+}
+
+.justify {
+  text-align: justify;
+}
+
+pre,
+code {
+  background-color: var(--light-gray);
+  color: var(--primary);
+}
+
+code {
+  padding: 0 0.1rem;
+  border-radius: 3px;
+}
+
+img,
+pre {
+  border: 1px solid var(--gray);
+  border-radius: 20px;
 }

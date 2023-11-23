@@ -1,9 +1,9 @@
 ---
-date: 2017-04-10T11:00:59-04:00
-description: "Pierre Gringoire"
-featured_image: ""
+date: 2023-10-07T10:58:08-04:00
+description: "Logo de javascript"
+featured_image: "/images/javascript.png"
 tags: []
-title: "Chapter II: Pierre Gringoire"
+title: "Lire Eloquent-JS en 2023"
 ---
 
 Nevertheless, as be harangued them, the satisfaction and admiration

@@ -1,0 +1,8 @@
+footer p {
+  margin: 0;
+  text-transform: lowercase;
+}
+
+hr {
+  border: 1px solid var(--gray);
+}

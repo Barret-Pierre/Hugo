@@ -1,0 +1,27 @@
+<footer class="{{ .Site.Params.background_color_class | default " bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between items-center">
+    <a class="f4 fw4 hover-mid-gray no-underline gray dn dib-ns pv2 ph3 brandname" href="{{ .Site.Home.Permalink }}">
+      {{ with default .Site.Title }} {{ . | safeHTML }} {{ end }}
+    </a>
+    <div class="flex-l items-center">
+      {{ if .Site.Menus.main }}
+      <ul class="{{ cond (eq $.Site.Language.LanguageDirection " rtl") "pr0 ml3" "pl0 mr3" }}">
+        {{ range .Site.Menus.main }}
+        <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}">
+          <a class="hover-mid-gray no-underline gray" href="{{ .URL }}" title="{{ i18n " pageTitle" . }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </div>
+  <hr>
+  <div class="flex justify-between">
+    <p class="f4 fw4 hover-mid-gray no-underline gray dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}">
+      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+    </p>
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>
