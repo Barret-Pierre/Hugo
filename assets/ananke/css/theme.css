@@ -54,7 +54,14 @@ code {
 }
 
 img,
-pre {
-  border: 1px solid var(--gray);
+pre,
+.rounded {
   border-radius: 20px;
+}
+
+.page-link {
+  display: flex !important;
+  justify-content: center !important;
+  min-width: 3rem !important;
+  border-radius: 20px !important;
 }

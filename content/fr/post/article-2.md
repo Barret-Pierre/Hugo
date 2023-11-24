@@ -1,6 +1,6 @@
 ---
 date: 2023-09-11T10:58:08-04:00
-description: "Logo d'Hugo"
+description: "Créer son site statique rapidement"
 featured_image: "/images/hugo.svg"
 tags: []
 subtitles: [introduction, definition, remind, install, create, theme]
@@ -500,7 +500,7 @@ jobs:
         uses: actions/deploy-pages@v2
 ```
 
-⚠️ Les fichier de configuration yaml sont sensible à l'indentation.
+⚠️ Les fichiers de configuration yaml sont sensibles à l'indentation.
 
 Modifiez les settings/pages de votre repository. Cette fois-ci choisissez 'deploy from github actions'. Pushez les modifications sur votre répository distant.
 

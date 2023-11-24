@@ -1,90 +1,35 @@
 ---
 date: 2023-10-07T10:58:08-04:00
-description: "Logo de javascript"
+description: "Comment apprendre efficacement du Javascript"
 featured_image: "/images/javascript.png"
 tags: []
 title: "Lire Eloquent-JS en 2023"
 ---
 
-Nevertheless, as be harangued them, the satisfaction and admiration
-unanimously excited by his costume were dissipated by his words; and when
-he reached that untoward conclusion: “As soon as his illustrious eminence,
-the cardinal, arrives, we will begin,” his voice was drowned in a thunder
-of hooting.
+# Pourquoi lire Eloquent JavaScript en 2023 ?
 
-“Begin instantly! The mystery! the mystery immediately!” shrieked the
-people. And above all the voices, that of Johannes de Molendino was
-audible, piercing the uproar like the fife’s derisive serenade: “Commence
-instantly!” yelped the scholar.
+Lorsqu'il s'agit d'apprendre le développement web, la quête de ressources de qualité est essentielle. Parmi les nombreux livres et tutoriels disponibles, un classique persiste comme une référence incontournable : **"Eloquent JavaScript"** de Marijn Haverbeke. En 2023, malgré l'évolution constante des technologies web, ce livre continue à être une ressource précieuse pour les développeurs de tous niveaux. Dans cet article, explorons les raisons pour lesquelles la lecture d'Eloquent JavaScript reste pertinente et bénéfique cette année.
 
-“Down with Jupiter and the Cardinal de Bourbon!” vociferated Robin
-Poussepain and the other clerks perched in the window.
+## 1. Fondamentaux intemporels
 
-“The morality this very instant!” repeated the crowd; “this very instant!
-the sack and the rope for the comedians, and the cardinal!”
+Les bases du développement web restent relativement stables, et Eloquent JavaScript excelle dans l'explication de ces fondamentaux intemporels. Que vous soyez débutant cherchant à comprendre les bases du langage JavaScript ou un développeur plus expérimenté cherchant à consolider ses connaissances, le livre offre une perspective claire et approfondie sur les concepts essentiels.
 
-Poor Jupiter, haggard, frightened, pale beneath his rouge, dropped his
-thunderbolt, took his cap in his hand; then he bowed and trembled and
-stammered: “His eminence—the ambassadors—Madame Marguerite of
-Flanders—.” He did not know what to say. In truth, he was afraid of
-being hung.
+## 2. Approche pédagogique interactive
 
-Hung by the populace for waiting, hung by the cardinal for not having
-waited, he saw between the two dilemmas only an abyss; that is to say, a
-gallows.
+Eloquent JavaScript ne se contente pas d'expliquer la syntaxe du langage, il adopte une approche pédagogique interactive en introduisant des exemples de code réels et des exercices pratiques tout au long du livre. Cette méthodologie d'apprentissage par la pratique permet aux lecteurs d'appliquer immédiatement les concepts qu'ils apprennent, renforçant ainsi leur compréhension et leur compétence en programmation JavaScript.
 
-Luckily, some one came to rescue him from his embarrassment, and assume
-the responsibility.
+## 3. Mises à jour régulières
 
-An individual who was standing beyond the railing, in the free space
-around the marble table, and whom no one had yet caught sight of, since
-his long, thin body was completely sheltered from every visual ray by the
-diameter of the pillar against which he was leaning; this individual, we
-say, tall, gaunt, pallid, blond, still young, although already wrinkled
-about the brow and cheeks, with brilliant eyes and a smiling mouth, clad
-in garments of black serge, worn and shining with age, approached the
-marble table, and made a sign to the poor sufferer. But the other was so
-confused that he did not see him. The new comer advanced another step.
+Bien que le livre ait été initialement publié en 2011, Marijn Haverbeke a continué à mettre à jour Eloquent JavaScript pour refléter les évolutions du langage JavaScript et du développement web en général. Ces mises à jour régulières garantissent que le contenu reste pertinent et aligné sur les meilleures pratiques actuelles, ce qui en fait un guide fiable même en 2023.
 
-“Jupiter,” said he, “my dear Jupiter!”
+## 4. Adaptabilité aux technologies émergentes
 
-The other did not hear.
+Le développement web évolue constamment avec l'émergence de nouvelles technologies et de frameworks. Eloquent JavaScript, tout en enseignant les bases, prépare également les lecteurs à s'adapter à ces changements. En comprenant les principes fondamentaux, les développeurs sont mieux équipés pour apprendre de nouveaux outils et technologies, ce qui est essentiel dans un domaine en constante évolution.
 
-At last, the tall blond, driven out of patience, shrieked almost in his
-face,—
+## 5. Communauté active
 
-“Michel Giborne!”
+L'une des forces d'Eloquent JavaScript réside dans sa communauté active. Des forums de discussion en ligne aux groupes sur les réseaux sociaux, les lecteurs peuvent partager leurs expériences, poser des questions et collaborer sur des projets. Cette communauté offre un soutien précieux aux apprenants, créant un environnement propice à l'apprentissage et à la croissance professionnelle.
 
-“Who calls me?” said Jupiter, as though awakened with a start.
+# conclusion
 
-“I,” replied the person clad in black.
-
-“Ah!” said Jupiter.
-
-“Begin at once,” went on the other. “Satisfy the populace; I undertake to
-appease the bailiff, who will appease monsieur the cardinal.”
-
-Jupiter breathed once more.
-
-“Messeigneurs the bourgeois,” he cried, at the top of his lungs to the
-crowd, which continued to hoot him, “we are going to begin at once.”
-
-“_Evoe Jupiter! Plaudite cives_! All hail, Jupiter! Applaud,
-citizens!” shouted the scholars.
-
-“Noel! Noel! good, good,” shouted the people.
-
-The hand clapping was deafening, and Jupiter had already withdrawn under
-his tapestry, while the hall still trembled with acclamations.
-
-In the meanwhile, the personage who had so magically turned the tempest
-into dead calm, as our old and dear Corneille puts it, had modestly
-retreated to the half-shadow of his pillar, and would, no doubt, have
-remained invisible there, motionless, and mute as before, had he not been
-plucked by the sleeve by two young women, who, standing in the front row
-of the spectators, had noticed his colloquy with Michel Giborne-Jupiter.
-
-“Master,” said one of them, making him a sign to approach. “Hold your
-tongue, my dear Liénarde,” said her neighbor, pretty, fresh, and very
-brave, in consequence of being dressed up in her best attire. “He is not a
-clerk, he is a layman; you must not say master to him, but messire.”
+Lire Eloquent JavaScript en 2023 est une décision judicieuse pour tout aspirant développeur web. Que vous soyez novice cherchant à maîtriser les bases ou un professionnel souhaitant consolider ses connaissances, ce livre offre une perspective éclairante sur le développement web, le JavaScript, et la programmation en général. Son approche interactive, ses mises à jour régulières et sa communauté active en font une ressource inestimable pour tous ceux qui cherchent à exceller dans le monde du développement web.

@@ -1,90 +1,67 @@
 ---
 date: 2023-09-12T10:58:08-04:00
-description: "Image d'un code déchiffré avec une loupe"
+description: "L'art de dissimuler du contenu à la vue de tous"
 featured_image: "/images/stegano.jpg"
 tags: []
 title: "La stéganographie"
 ---
 
-Nevertheless, as be harangued them, the satisfaction and admiration
-unanimously excited by his costume were dissipated by his words; and when
-he reached that untoward conclusion: “As soon as his illustrious eminence,
-the cardinal, arrives, we will begin,” his voice was drowned in a thunder
-of hooting.
+# Avant propos
 
-“Begin instantly! The mystery! the mystery immediately!” shrieked the
-people. And above all the voices, that of Johannes de Molendino was
-audible, piercing the uproar like the fife’s derisive serenade: “Commence
-instantly!” yelped the scholar.
+La stéganographie, est un art ancien de dissimulation de l'information, a évolué au fil du temps pour devenir une technique numérique sophistiquée. Cette discipline vise à cacher des données à l'intérieur d'autres données de manière à ne pas éveiller les soupçons. Un exemple moderne fascinant de stéganographie est la capacité de dissimuler des messages au sein d'images numériques.
 
-“Down with Jupiter and the Cardinal de Bourbon!” vociferated Robin
-Poussepain and the other clerks perched in the window.
+# Définition
 
-“The morality this very instant!” repeated the crowd; “this very instant!
-the sack and the rope for the comedians, and the cardinal!”
+La stéganographie se distingue de la cryptographie, qui cherche à rendre les messages illisibles, en cherchant plutôt à rendre les messages invisibles. Le mot "stéganographie" provient du grec "steganos" (caché) et "graphie" (écriture), ce qui illustre bien l'objectif de cette pratique millénaire.
 
-Poor Jupiter, haggard, frightened, pale beneath his rouge, dropped his
-thunderbolt, took his cap in his hand; then he bowed and trembled and
-stammered: “His eminence—the ambassadors—Madame Marguerite of
-Flanders—.” He did not know what to say. In truth, he was afraid of
-being hung.
+# Stéganographie et images ?
 
-Hung by the populace for waiting, hung by the cardinal for not having
-waited, he saw between the two dilemmas only an abyss; that is to say, a
-gallows.
+Dans le contexte des images numériques, la stéganographie exploite les propriétés subtiles des fichiers graphiques pour incorporer des informations supplémentaires sans altérer significativement l'apparence de l'image. Les variations de couleurs, de pixels ou même de métadonnées peuvent être utilisées pour dissimuler des données.
 
-Luckily, some one came to rescue him from his embarrassment, and assume
-the responsibility.
+## **1. Modification des pixels**
 
-An individual who was standing beyond the railing, in the free space
-around the marble table, and whom no one had yet caught sight of, since
-his long, thin body was completely sheltered from every visual ray by the
-diameter of the pillar against which he was leaning; this individual, we
-say, tall, gaunt, pallid, blond, still young, although already wrinkled
-about the brow and cheeks, with brilliant eyes and a smiling mouth, clad
-in garments of black serge, worn and shining with age, approached the
-marble table, and made a sign to the poor sufferer. But the other was so
-confused that he did not see him. The new comer advanced another step.
+Une méthode courante consiste à modifier légèrement la valeur des pixels d'une image. En ajustant subtilement les composants de couleur, il est possible d'introduire des données sans que cela ne soit perceptible à l'œil humain.
 
-“Jupiter,” said he, “my dear Jupiter!”
+Vous pouvez retouver sur mon [github](https://github.com/Barret-Pierre/stegano_programme), un exemple de stéganographie utilisant le principe de modification de pixel.
 
-The other did not hear.
+## **2. Utilisation de l'éspace de couleur**
 
-At last, the tall blond, driven out of patience, shrieked almost in his
-face,—
+Les espaces de couleur comme RGB (Rouge, Vert, Bleu) peuvent être exploités pour cacher des informations. Par exemple, en utilisant la composante rouge d'un pixel pour stocker des données, il est possible de cacher un message sans affecter significativement l'apparence de l'image.
 
-“Michel Giborne!”
+## **3. Intégration dans les métadonnées**
 
-“Who calls me?” said Jupiter, as though awakened with a start.
+Certains systèmes de stéganographie utilisent les métadonnées d'une image pour cacher des informations. En ajoutant des données dans les champs non visibles, comme les commentaires ou les informations de copyright, les messages peuvent être dissimulés de manière astucieuse.
 
-“I,” replied the person clad in black.
+# Les sniffer
 
-“Ah!” said Jupiter.
+Alors que la stéganographie offre une méthode astucieuse pour dissimuler des informations, des outils de détection tels que les "sniffers" sont développés pour identifier ces manipulations. Dans le contexte des images stéganographiées, un sniffer analyse les fichiers à la recherche de schémas caractéristiques qui pourraient indiquer la présence de données cachées.
 
-“Begin at once,” went on the other. “Satisfy the populace; I undertake to
-appease the bailiff, who will appease monsieur the cardinal.”
+# Fonctionnement d'un sniffer
 
-Jupiter breathed once more.
+1. **Analyse des propriétés statistiques :**
 
-“Messeigneurs the bourgeois,” he cried, at the top of his lungs to the
-crowd, which continued to hoot him, “we are going to begin at once.”
+Les sniffers utilisent des algorithmes avancés pour comparer les propriétés statistiques d'une image normale avec celles d'une image potentiellement stéganographiée. Des anomalies dans la distribution des couleurs, des pixels ou d'autres caractéristiques visuelles peuvent être des indicateurs.
 
-“_Evoe Jupiter! Plaudite cives_! All hail, Jupiter! Applaud,
-citizens!” shouted the scholars.
+2. **Examen des métadonnées :**
 
-“Noel! Noel! good, good,” shouted the people.
+Certains sniffers examinent également les métadonnées de l'image, à la recherche d'informations inattendues ou non conformes. Des modifications dans les champs de métadonnées peuvent révéler la présence de données cachées.
 
-The hand clapping was deafening, and Jupiter had already withdrawn under
-his tapestry, while the hall still trembled with acclamations.
+3. **Analyse de l'espace de couleur :**
 
-In the meanwhile, the personage who had so magically turned the tempest
-into dead calm, as our old and dear Corneille puts it, had modestly
-retreated to the half-shadow of his pillar, and would, no doubt, have
-remained invisible there, motionless, and mute as before, had he not been
-plucked by the sleeve by two young women, who, standing in the front row
-of the spectators, had noticed his colloquy with Michel Giborne-Jupiter.
+Les sniffers peuvent se concentrer sur des espaces de couleur spécifiques, tels que le RGB, pour détecter des altérations subtiles. Par exemple, la recherche de variations significatives dans une composante spécifique peut indiquer la présence de données dissimulées.
 
-“Master,” said one of them, making him a sign to approach. “Hold your
-tongue, my dear Liénarde,” said her neighbor, pretty, fresh, and very
-brave, in consequence of being dressed up in her best attire. “He is not a
-clerk, he is a layman; you must not say master to him, but messire.”
+![Sniffer stéganographie](/images/sniffer.png)
+
+Voici un exemple de ce à quoi peut ressembler la détéction par analyse de l'espace couleur. Tout à gauche l'image original. En haut a gauche une image sans message caché passé dans le sniffer. Plus on avance vers la droite plus l'image se déforme, ce qui indique le degré de pixels altérés. Si une images est déformé, elle renferme surement un message.
+
+## **Limitations des sniffers**
+
+Bien que les sniffers soient des outils puissants, ils ne sont pas infaillibles. Les stéganographes peuvent adapter leurs techniques pour contourner les méthodes de détection courantes. Des approches avancées, telles que l'utilisation de méthodes de stéganographie robuste, peuvent rendre la détection plus difficile.
+
+# Les applications de la stéganographie
+
+La stéganographie trouve des applications dans divers domaines. Du côté positif, elle peut être utilisée pour la protection des données, la dissimulation de messages confidentiels ou même pour des besoins artistiques. Cependant, elle peut également être utilisée à des fins malveillantes, telles que le vol d'informations sensibles.
+
+# Conclusion
+
+La stéganographie dans les images est un domaine fascinant où l'art ancien de cacher des messages rencontre la sophistication de la technologie numérique. Alors que cette technique peut être utilisée de manière constructive, elle soulève également des préoccupations éthiques quant à son utilisation potentielle à des fins malveillantes. En fin de compte, comprendre la stéganographie peut aider à renforcer la sécurité numérique et à sensibiliser aux défis constants de la protection des informations dans notre monde interconnecté.
