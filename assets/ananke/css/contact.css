@@ -1,0 +1,12 @@
+input,
+textarea {
+  border-radius: 20px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--mid-gray);
+}

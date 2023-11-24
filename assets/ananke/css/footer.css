@@ -4,5 +4,6 @@ footer p {
 }
 
 hr {
-  border: 1px solid var(--gray);
+  margin-inline: 1rem;
+  border: 1px solid var(--white);
 }

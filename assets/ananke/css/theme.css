@@ -6,6 +6,7 @@
   --gray: #777777;
   --mid-gray: #555555;
   --light-gray: hsl(0, 0%, 90%);
+  --white: #ffffff;
   --font-primary: Noto Sans KR;
 }
 
@@ -20,12 +21,12 @@ body {
 }
 
 .ananke-socials a {
-  color: var(--gray);
+  color: var(--light-gray);
   fill: currentColor;
 }
 
 .ananke-socials a.link:hover {
-  color: var(--mid-gray);
+  color: var(--white);
 }
 
 .btn {
@@ -53,10 +54,22 @@ code {
   border-radius: 3px;
 }
 
+p {
+  text-align: justify;
+}
+
 img,
 pre,
 .rounded {
   border-radius: 20px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.text-center p {
+  text-align: center;
 }
 
 .page-link {
@@ -64,4 +77,28 @@ pre,
   justify-content: center !important;
   min-width: 3rem !important;
   border-radius: 20px !important;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.btn-summary {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  vertical-align: middle;
+  transition: 0.15s ease-in;
+}
+
+.btn-summary:hover {
+  background-color: var(--mid-gray);
+}
+
+.author {
+  display: flex;
+  justify-content: end;
 }

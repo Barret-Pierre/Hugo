@@ -7,8 +7,6 @@ type: page
 menu: main
 ---
 
-Ceci est la page de contact en Français.
+Bienvenue sur notre page de contact ! Nous sommes ravis d'avoir de vos nouvelles. Que vous ayez des questions, des commentaires, ou simplement l'envie de dire bonjour, n'hésitez pas à utiliser les informations ci-dessous pour entrer en contact avec nous.
 
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the shortcode to make it work. Check out [Formspree](https://formspree.io/) for a simple, free form service.
-
-{{< form-contact action="https://example.com"  >}}
+{{< form-contact action="https://formspree.io/f/mlezbjla"  >}}
