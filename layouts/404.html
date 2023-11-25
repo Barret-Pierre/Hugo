@@ -1,8 +1,10 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-    <article class="center cf pv5 measure-wide-l">
-      <h1>
-        This is not the page you were looking for
-      </h1>
-    </article>
+<article class="center cf pv5 measure-wide-l not-found">
+  <h1>Erreur 404 - Page non trouvée</h1>
+  <iframe src="https://giphy.com/embed/9J7tdYltWyXIY" width="480" height="404" frameBorder="0" class="giphy-embed"
+    allowFullScreen></iframe>
+  <p>Désolé, la page que vous recherchez semble ne pas exister.</p>
+  <p>Retournez à <a href="/">la page d'accueil</a> pour trouver ce que vous cherchez.</p>
+</article>
 {{ end }}

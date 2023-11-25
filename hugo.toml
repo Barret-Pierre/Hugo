@@ -1,9 +1,9 @@
 title = "BLOG.IO"
-baseURL='https://barret-pierre.github.io/Hugo/'
+baseURL='http://localhost:1313/'
 languageCode = "en-us"
 theme = 'ananke'
 summaryLength = 40
-canonifyURL = true
+canonifyURLs = true
 
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"

@@ -111,3 +111,22 @@ pre,
   position: fixed;
   top: 3rem;
 }
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: var(--font-primary);
+  font-weight: bold;
+  transition: 0.15s ease-in;
+}
+
+.not-found a:hover {
+  text-decoration: underline;
+  color: var(--mid-gray);
+}
