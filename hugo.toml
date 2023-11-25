@@ -3,6 +3,7 @@ baseURL='https://barret-pierre.github.io/Hugo/'
 languageCode = "en-us"
 theme = 'ananke'
 summaryLength = 40
+canonifyURL = true
 
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
