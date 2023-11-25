@@ -102,3 +102,12 @@ pre,
   display: flex;
   justify-content: end;
 }
+
+.menu {
+  width: 300px;
+}
+
+.sticky {
+  position: fixed;
+  top: 3rem;
+}

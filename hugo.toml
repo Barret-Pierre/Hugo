@@ -11,10 +11,6 @@ googleAnalytics = ""
 enableRobotsTXT = true
 
 [languages]
-  [languages.en]
-    title = "BLOG.IO"
-    weight = 1
-    contentDir = "content/en"
   [languages.fr]
     title = "BLOG.IO"
     weight = 2
@@ -27,15 +23,16 @@ enableRobotsTXT = true
 
 [params]
   text_color_class = ""
-  author = ""
+  author = "Pierre Barret"
   favicon = ""
   site_logo = ""
   commentoEnable = false
   description = "The last theme you'll ever need. Maybe."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  custom_css = ["theme.css", "footer.css", "sumary-with-image.css"]
-  background_color_class = "bg-light-gray"
-  recent_posts_number = 4
+  custom_css = ["theme.css", "footer.css", "sumary-with-image.css", "contact.css"]
+  custom_js = ["js/custom.js"]
+  background_color_class = "bg-black"
+  recent_posts_number = 2
   summaryLength = 30
 
 [[params.ananke_socials]]
