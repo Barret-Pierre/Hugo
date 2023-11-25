@@ -24,7 +24,7 @@ enableRobotsTXT = true
 [params]
   text_color_class = ""
   author = "Pierre Barret"
-  favicon = ""
+  favicon = "favicon.ico"
   site_logo = ""
   commentoEnable = false
   description = "The last theme you'll ever need. Maybe."
