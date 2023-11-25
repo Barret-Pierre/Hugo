@@ -11,10 +11,10 @@ other = "{{.Title }} récents"
 other = "Lire plus"
 
 [by]
-other = "Par"
+other = "Écrit par"
 
 [whatsInThis]
-other = "Ce qui est dans {{ .Type }}"
+other = "Sommaire"
 
 [related]
 other = "Lié"

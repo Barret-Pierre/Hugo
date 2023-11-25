@@ -2,16 +2,15 @@
 date: 2023-09-11T10:58:08-04:00
 description: "Créer son site statique rapidement"
 featured_image: "/images/hugo.svg"
-tags: []
-subtitles: [introduction, definition, remind, install, create, theme]
+toc: true
 title: "Hugo et les github-pages"
 ---
 
-# Introduction
+## Introduction
 
 Mettre en ligne un site statique peut être fastidieux. Entre la phase de conception, de développement et de déploiment, le processus de création peut s'avérer particulièrement lourd. Découvrons comment Hugo et les Github-pages peuvent palier ce problème.
 
-# Définition
+## Définition
 
 **Hugo c'est quoi ?**
 
@@ -23,7 +22,7 @@ web statiques. Contrairement aux systèmes de gestion de contenu (CMS) dynamique
 GitHub Pages est un service d’hébergement fourni
 par GitHub qui permet de publier des sites web directement à partir d’un dépôt GitHub.
 
-# Rapels
+## Rapels
 
 **Git**
 
@@ -39,7 +38,7 @@ collaboration basée sur Git. Elle permet de stocker des répertoires (projets),
 
 GitHub Actions est un outil d’automatisation qui permet de créer des workflows personnalisés pour tester, construire et déployer du code directement depuis GitHub. Nous l'utiliseront pour créer notre propre workflow de déploiement.
 
-# Installer Hugo
+## Installer Hugo
 
 Vous pouvez installer Hugo sur **MacOs** par l'intermédiaire de [Homebrew](https://brew.sh/). Dans votre terminal entrez la commande suivante.
 
@@ -61,9 +60,9 @@ hugo v0.120.4-f11bca5fec2ebb3a02727fb2a5cfb08da96fd9df+extended darwin/arm64 Bui
 
 Pour les autres systèmes d'exploitation, je vous laisse aller sur la [documentation d'Hugo](https://gohugo.io/installation/).
 
-# Créer son site avec Hugo
+## Créer son site avec Hugo
 
-## Architecture d'Hugo
+**1. Architecture d'Hugo**
 
 Dans un premier temps nous allons créer le site en local.
 Ouvrez votre éditeur de code préféré et choissisez le répertoire de travail qui vous convient.
@@ -126,7 +125,7 @@ Ce dossier contient les différent thèmes utilisés pour le site.
 
 Ce fichier est le fichier de configuration du site Hugo. C'est ce fichier qui est utilisé pour construire le site en fonction des paramètres qu'il contient.
 
-## Créer son premier post
+**2. Créer son premier post**
 
 Maintenant que votre architecture est posée. Créez votre premier post en utilisant la commande suivante.
 
@@ -206,9 +205,9 @@ Cette commande déploie le site localement et prend en compte les fichiers draft
 
 Vous pouvez accèder à votre site à partir de [http://localhost:1313](http://localhost:1313). Pour l'instant votre site n'affiche rien à part une érreure 404 c'est tout à fait normal, vous n'avez pas encore de structure de pages.
 
-# Ajouter un thème à notre site
+## Ajouter un thème à notre site
 
-## Installer un thème
+**1. Installer un thème**
 
 Votre site n'as pas de structure et nous aimerions pour en créer une arpidement, cette étape peut être longue et fastidieuse. Heureusement, Hugo met à disposition de nombreux thèmes.
 
@@ -245,7 +244,7 @@ Pour utiliser le site préconçu proposé par le thème, vous pouvez copier-coll
 
 ⚠️ Le site d'exemple est un site gérant le multilingue, si vous désirez l'utiliser, copier le contenu du fichier de configuration `config.toml` dans votre fichier de configuration principal `hugo.toml`.
 
-## Surcharger le thème
+**2. Surcharger le thème**
 
 Si vous voulez changer le style et pourquoi pas l'architecture de certains élément il faut commencer par ajouter un style customisé.
 
@@ -268,7 +267,7 @@ Au sein du paramètre `params` ajoutez la ligne suivante.
 
 Relancez le site pour voir apparaitre les modification. (N'oubliez pas de relancer le build 😉)
 
-## Modifier la structure du thème
+**3. Modifier la structure du thème**
 
 Modifiez la structure du footer. Pour cela, modifiez le temple HTML.
 
@@ -303,9 +302,9 @@ Ouvrez ensuite le fichier `site-footer.html` et copiez-collez les lignes suivant
 
 Relancez le serveur et constatez maintenant que le bouton twitter à disparut. Le site utilise donc bien votre footer personalisé.
 
-# Déployer son site sur github
+## Déployer son site sur github
 
-## Initialiser git au sein du projet
+**1. Initialiser git au sein du projet**
 
 Créez un nouveau repository.
 Les répository sont des répertoires distants hébergés par la plateforme [Github](https://github.com/).
@@ -365,7 +364,7 @@ git push -u origin main
 
 Le flag -u ou --set-upstream est ici utilisé pour indiquer que la branch main est une branch d'origine valide, si ce n'est pas le cas la branch sera créer sur le repository distant.
 
-# Déployer le site manuellement
+**2. Déployer le site manuellement**
 
 Commencez par build le site en local si ce n'est pas déjà fait.
 
@@ -411,7 +410,7 @@ Choissisez la source de déploiement 'Deploy from a branch'. Selectionnez la bra
 
 Rendez vous dans l'onglet Actions et admirez le déploiement de votre site s'executer. Une fois le déploiement terminé un lien est accessible pour accèder à votre site.
 
-## Déployer automatique le site
+**3. Déployer automatique le site**
 
 Vous imaginez refaire ce déploiement à chaque fois que l'on créer un nouveau post sur notre site. Cela semble fastidieux. Nous allons donc metre en place un déploiment continue. Pour cela nous allons utiliser les github-actions.
 
@@ -506,7 +505,7 @@ Modifiez les settings/pages de votre repository. Cette fois-ci choisissez 'deplo
 
 Rendez vous dans l'onglet Actions et admirez le déploiement de votre site s'executer. Une fois le déploiement terminé un lien est accessible pour accèder à votre site.
 
-# Conclusion
+## Conclusion
 
 Vous avez appris à créer un site avec Hugo. Cette solution permet de créer des sites statiques rapidement grâce à des templates préconçus. Le CSS et la strucutre des templates peuvent être surchargés et sont facilement personalisables. Le déploiement peut se faire manuellement par l'intermédiaire d'une branche dédiée ou automatiquement grâce au Github-actions par l'intermédiaire d'un fichier de configuration.
 
